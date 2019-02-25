@@ -1,0 +1,4 @@
+C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\bin\Release\LG.Estacionamento.exe
+C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\bin\Release\LG.Estacionamento.pdb
+C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\obj\x86\Release\LG.Estacionamento.exe
+C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\obj\x86\Release\LG.Estacionamento.pdb
