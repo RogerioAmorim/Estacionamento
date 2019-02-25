@@ -45,27 +45,19 @@ namespace LG.Estacionamento
             var AgrupamentoPorData =
                 from valorcalculo in ValoresCalculados
                 group valorcalculo by valorcalculo.DataDoCalculo into NG
-                select new 
+                select new DTOSelecPorAgrupamento
                 { 
                     
-                    Data = NG.Key, 
-                    QtdMoto = NG.Where(x=> x.veiculo.GetType()==typeof(Moto)).Count(),
-                    QtdCarro = NG.Where(x=> x.veiculo.GetType()==typeof(Carro)).Count(),
-                    QtdCamionete = NG.Where(x=> x.veiculo.GetType()==typeof(Camionete)).Count()
+                    DataReferecia = NG.Key, 
+                    QTDMotosNaData = NG.Where(x=> x.veiculo.GetType()==typeof(Moto)).Count(),
+                    QTDCarrosNaData = NG.Where(x=> x.veiculo.GetType()==typeof(Carro)).Count(),
+                    QTDCamioneteNaData = NG.Where(x=> x.veiculo.GetType()==typeof(Camionete)).Count()
                 };
 
-            try
-            {
-                ListaDTOSelecPorAgrupamento = AgrupamentoPorData.Cast<DTOSelecPorAgrupamento>().ToList();
-                return ListaDTOSelecPorAgrupamento;
-            }
-            catch (Exception)
-            { 
-                throw new ArgumentException("IHHH DEU RUIM CODIGO N FUNFOU"); 
-            }
-            
+            return AgrupamentoPorData.ToList();
+    
         }
-        public List<string> CalculeTempoMedioPorTipoDeVeiculo() //ta uma caca
+        public List<string> CalculeTempoMedioPorTipoDeVeiculo() //OTIMIZAR EM CASA
         {
             
             var TempoMedioMoto = new TimeSpan();

@@ -50,6 +50,7 @@
     <Compile Include="CalculoPrecoMoto.cs" />
     <Compile Include="Camionete.cs" />
     <Compile Include="Carro.cs" />
+    <Compile Include="GenericsList.cs" />
     <Compile Include="EnumTipoCalculo.cs" />
     <Compile Include="FabricaMaquinaDeCalculoPreco.cs" />
     <Compile Include="FuncoesUteis.cs" />

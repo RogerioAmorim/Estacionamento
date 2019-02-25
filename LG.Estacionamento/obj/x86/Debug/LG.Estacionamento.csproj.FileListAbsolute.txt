@@ -3,3 +3,8 @@ C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO
 C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\obj\x86\Debug\LG.Estacionamento.pdb
 C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\bin\Debug\LG.Estacionamento.pdb
 C:\Users\rogerio.marinho\Documents\Visual Studio 2010\Projects\LG.ESTACIONAMENTO\LG.Estacionamento\obj\x86\Debug\LG.Estacionamento.csprojResolveAssemblyReference.cache
+C:\Users\rogerio.marinho\Desktop\Estacionamento\LG.Estacionamento\obj\x86\Debug\LG.Estacionamento.exe
+C:\Users\rogerio.marinho\Desktop\Estacionamento\LG.Estacionamento\obj\x86\Debug\LG.Estacionamento.pdb
+C:\Users\rogerio.marinho\Desktop\Estacionamento\LG.Estacionamento\bin\Debug\LG.Estacionamento.exe
+C:\Users\rogerio.marinho\Desktop\Estacionamento\LG.Estacionamento\bin\Debug\LG.Estacionamento.pdb
+C:\Users\rogerio.marinho\Desktop\Estacionamento\LG.Estacionamento\obj\x86\Debug\LG.Estacionamento.csprojResolveAssemblyReference.cache
