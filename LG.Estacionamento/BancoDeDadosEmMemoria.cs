@@ -10,7 +10,7 @@ namespace LG.Estacionamento
         private static BancoDeDadosEmMemoria _singleton;
         private static object _lock = new object();
         public IList<ValorCalculado> ValoresCalculados;
-
+       
         private BancoDeDadosEmMemoria()
         {
             ValoresCalculados = new List<ValorCalculado>();
@@ -26,10 +26,17 @@ namespace LG.Estacionamento
             return _singleton;
         }
 
-        public IList<ValorCalculado> SelectPorData(DateTime Referencia)
+        public IList<ValorCalculado> SelectPorData<T>(DateTime Referencia)
         {
-            return this.ValoresCalculados.ToList().Where(
+            try 
+  	        {	        
+	          return this.ValoresCalculados.ToList().Where(
                 x => x.DataDoCalculo.Equals(Referencia)).ToList();
+	        }
+	        catch (Exception)
+	        {
+		        throw;
+	        }
         }
         public IEnumerable<IGrouping<string, ValorCalculado>> SelecPorPlaca(EnumTipoDeCalculo enumTipoDeCalculo)
         {

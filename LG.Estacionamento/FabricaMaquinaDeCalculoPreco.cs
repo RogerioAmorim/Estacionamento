@@ -9,6 +9,7 @@ namespace LG.Estacionamento
     {
         private static FabricaMaquinaDeCalculoPreco _singleton;
         private static object _lock = new object();
+
         public static FabricaMaquinaDeCalculoPreco Crie()
         {
             lock(_lock)
